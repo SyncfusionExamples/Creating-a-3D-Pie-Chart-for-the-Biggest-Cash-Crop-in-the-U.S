@@ -15,7 +15,7 @@
 
         <Grid>
 
-            <chart:SfChart3D Depth="30" Rotation="-20" Tilt="-40" EnableRotation="True">
+            <chart:SfChart3D Depth="40" Rotation="-20" Tilt="-30" EnableRotation="True">
 
                 <chart:SfChart3D.Header>
                     <Grid Margin="-50,3,0,10" x:Name="header">
@@ -52,7 +52,7 @@
                     </chart:PieSeries3D.ColorModel>
 
                     <chart:PieSeries3D.AdornmentsInfo>
-                        <chart:ChartAdornmentInfo3D ShowLabel="True" ShowConnectorLine="True" ConnectorHeight="50" 
+                        <chart:ChartAdornmentInfo3D ShowLabel="True" ShowConnectorLine="True" ConnectorHeight="40"
                                                     FontSize="13"/>
                     </chart:PieSeries3D.AdornmentsInfo>
                 </chart:PieSeries3D>
