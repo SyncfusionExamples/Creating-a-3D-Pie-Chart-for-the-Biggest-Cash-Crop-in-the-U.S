@@ -25,8 +25,8 @@
                         </Grid.ColumnDefinitions>
                         <StackPanel Orientation="Vertical" Margin="0,10,5,0" Background="#199AFB"/>
                         <StackPanel Grid.Column="1" >
-                            <TextBlock Text="The Six Biggest Cash Crop in the U.S" FontSize="35" FontWeight="SemiBold" Foreground="White"/>
-                            <TextBlock Text="Crops with the biggest wholesale harvest value in the U.S in 2022(in billion U.S dollars)" FontSize="18" Foreground="Gray"/>
+                            <TextBlock Text="The Six Biggest Cash Crops in the U.S." FontSize="35" FontWeight="SemiBold" Foreground="White"/>
+                            <TextBlock Text="Crops with the biggest wholesale harvest value in the U.S in 2022(in billions of USD)" FontSize="18" Foreground="Gray"/>
                         </StackPanel>
                     </Grid>
                 </chart:SfChart3D.Header>

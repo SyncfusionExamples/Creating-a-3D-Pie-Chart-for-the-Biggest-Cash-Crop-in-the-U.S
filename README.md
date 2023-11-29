@@ -9,7 +9,8 @@ We can customize the 3D chart view using properties such as [Depth](https://help
 We have enhanced the appearance of our chart by customizing pie series appearances using [CircleCoefficient](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.CircularSeriesBase3D.html#Syncfusion_UI_Xaml_Charts_CircularSeriesBase3D_CircleCoefficient) and [Palette](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Charts.ChartSeriesBase.html#Syncfusion_UI_Xaml_Charts_ChartSeriesBase_Palette) properties.
 
 This article explains how to create a 3D pie chart to visualize the six biggest cash crops in the US for 2022.
-<img width="914" alt="Demo" src="https://github.com/SyncfusionExamples/Creating-a-3D-Pie-Chart-for-the-Biggest-Cash-Crop-in-the-U.S/assets/103025761/ed25b897-5385-40bf-9258-f9093fc2e539">
+<img width="934" alt="Demo" src="https://github.com/SyncfusionExamples/Creating-a-3D-Pie-Chart-for-the-Biggest-Cash-Crop-in-the-U.S/assets/103025761/735078fe-2357-42ac-933c-b62f5ecf0f29">
+
 
 
 ## Troubleshooting
