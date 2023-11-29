@@ -17,4 +17,4 @@ This article explains how to create a 3D pie chart to visualize the six biggest 
 ### Path too long exception
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
 
-For a step-by-step procedure, refer to the [Biggest Cash Crop in US]() blog post.
+For a step-by-step procedure, refer to the [Biggest Cash Crop in US](https://www.syncfusion.com/blogs/post/wpf-3d-pie-chart-cash-crops.aspx) blog post.
