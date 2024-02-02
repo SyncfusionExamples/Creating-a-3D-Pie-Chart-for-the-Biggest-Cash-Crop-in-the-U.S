@@ -18,7 +18,7 @@
             <chart:SfChart3D Depth="40" Rotation="-20" Tilt="-30" EnableRotation="True">
 
                 <chart:SfChart3D.Header>
-                    <Grid Margin="-50,3,0,10" x:Name="header">
+                    <Grid Margin="-300,3,0,10" x:Name="header">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="20"/>
                             <ColumnDefinition Width="*"/>

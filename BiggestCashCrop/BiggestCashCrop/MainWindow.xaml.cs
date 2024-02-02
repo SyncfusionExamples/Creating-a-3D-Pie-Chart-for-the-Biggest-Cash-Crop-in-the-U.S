@@ -31,15 +31,15 @@ namespace BiggestCashCrop
         {
             if (this.WindowState == WindowState.Minimized)
             {
-                header.Margin = new Thickness(-50, 3, 0, 10);
+                header.Margin = new Thickness(-300, 3, 0, 10);
             }
             else if (this.WindowState == WindowState.Maximized)
             {
-                header.Margin = new Thickness(-400, 3, 0, 10);
+                header.Margin = new Thickness(-660, 3, 0, 10);
             }
             else if (this.WindowState == WindowState.Normal)
             {
-                header.Margin = new Thickness(-50, 3, 0, 10);
+                header.Margin = new Thickness(-300, 3, 0, 10);
             }
         }
     }
