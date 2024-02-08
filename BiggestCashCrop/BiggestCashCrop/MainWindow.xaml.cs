@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -15,13 +11,15 @@ using System.Windows.Shapes;
 
 namespace BiggestCashCrop
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
         }
-
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             this.StateChanged += MainWindow_StateChanged;
@@ -31,15 +29,15 @@ namespace BiggestCashCrop
         {
             if (this.WindowState == WindowState.Minimized)
             {
-                header.Margin = new Thickness(-50, 3, 0, 10);
+                header.Margin = new Thickness(-300, 3, 0, 10);
             }
             else if (this.WindowState == WindowState.Maximized)
             {
-                header.Margin = new Thickness(-400, 3, 0, 10);
+                header.Margin = new Thickness(-660, 3, 0, 10);
             }
             else if (this.WindowState == WindowState.Normal)
             {
-                header.Margin = new Thickness(-50, 3, 0, 10);
+                header.Margin = new Thickness(-300, 3, 0, 10);
             }
         }
     }

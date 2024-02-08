@@ -18,7 +18,7 @@
             <chart:SfChart3D Depth="40" Rotation="-20" Tilt="-30" EnableRotation="True">
 
                 <chart:SfChart3D.Header>
-                    <Grid Margin="-50,3,0,10" x:Name="header">
+                    <Grid Margin="-300,3,0,10" x:Name="header">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="20"/>
                             <ColumnDefinition Width="*"/>
@@ -36,7 +36,7 @@
                 </chart:SfChart3D.Legend>
 
                 <chart:PieSeries3D ItemsSource="{Binding Data}" XBindingPath="Category" YBindingPath="Value" CircleCoefficient="0.85"
-                              Palette="Custom" LegendIcon="Circle" ConnectorType="Bezier" LabelPosition="Outside">
+                            Palette="Custom" LegendIcon="Circle" ConnectorType="Bezier" LabelPosition="Outside">
 
                     <chart:PieSeries3D.ColorModel>
                         <chart:ChartColorModel>
@@ -53,10 +53,11 @@
 
                     <chart:PieSeries3D.AdornmentsInfo>
                         <chart:ChartAdornmentInfo3D ShowLabel="True" ShowConnectorLine="True" ConnectorHeight="40"
-                                                    FontSize="13"/>
+                                                  FontSize="13"/>
                     </chart:PieSeries3D.AdornmentsInfo>
                 </chart:PieSeries3D>
             </chart:SfChart3D>
         </Grid>
     </Border>
+
 </Window>
